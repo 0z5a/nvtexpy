@@ -1,0 +1,376 @@
+<RootElement
+  <HeaderElement
+    <ParagraphElement, is_math_formula=False
+      "K"
+    >
+    <ParagraphElement, is_math_formula=False
+      "L"
+    >
+    <ParagraphElement, is_math_formula=False
+      "R"
+    >
+  >
+  <HeadingElement, level=1
+    "Document 2"
+  >
+  <EndOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    <MathElement, code=math(code='\\(\\begin{array}{ c }\n\\text{\\textbf{AuthorC}}^{1*}\\text{\\textbf{,AuthorD}}^{2\\dagger}\\text{\\textbf{,AuthorE}}^2\\text{\\textbf{,}} \\\\\n\\text{\\textbf{AuthorF}}^2\\text{\\textbf{,AuthorG}}^{1\\dagger}\\text{\\textbf{,AuthorH}}^1 \\\\\n\\text{OrganizationB}^1\\text{,OrganizationC}^2 \\\\\n\\text{\\texttt{\\{authorc,authorg\\}@example.com},\\texttt{\\{authord,authore\\}@example.com}}\n\\end{array}\\)'), is_display=False, is_inline=True, is_eq_num=False
+      <ParagraphElement, is_math_formula=False
+        <StrongElement
+          "Author C"
+        >
+        <MathElement, code=math(code='\\(^{1*}\\)'), is_display=False, is_inline=True, is_eq_num=False
+          <SuperscriptElement
+            "1∗"
+          >
+        >
+        <StrongElement
+          ", Author D"
+        >
+        <MathElement, code=math(code='\\(^{2\\dagger}\\)'), is_display=False, is_inline=True, is_eq_num=False
+          <SuperscriptElement
+            "2†"
+          >
+        >
+        <StrongElement
+          ", Author E"
+        >
+        <MathElement, code=math(code='\\(^2\\)'), is_display=False, is_inline=True, is_eq_num=False
+          <SuperscriptElement
+            "2"
+          >
+        >
+        <StrongElement
+          ","
+        >
+        <LinebreakElement />
+        <StrongElement
+          "Author F"
+        >
+        <MathElement, code=math(code='\\(^2\\)'), is_display=False, is_inline=True, is_eq_num=False
+          <SuperscriptElement
+            "2"
+          >
+        >
+        <StrongElement
+          ", Author G"
+        >
+        <MathElement, code=math(code='\\(^{1\\dagger}\\)'), is_display=False, is_inline=True, is_eq_num=False
+          <SuperscriptElement
+            "1†"
+          >
+        >
+        <StrongElement
+          ", Author H"
+        >
+        <MathElement, code=math(code='\\(^1\\)'), is_display=False, is_inline=True, is_eq_num=False
+          <SuperscriptElement
+            "1"
+          >
+        >
+        <LinebreakElement />
+        "Organization B"
+        <MathElement, code=math(code='\\(^1\\)'), is_display=False, is_inline=True, is_eq_num=False
+          <SuperscriptElement
+            "1"
+          >
+        >
+        ", Organization C"
+        <MathElement, code=math(code='\\(^2\\)'), is_display=False, is_inline=True, is_eq_num=False
+          <SuperscriptElement
+            "2"
+          >
+        >
+        <LinebreakElement />
+        <CodeElement
+          "{authorc, authorg}@example.com"
+        >
+        ", "
+        <CodeElement
+          "{authord, authore}@example.com"
+        >
+      >
+    >
+  >
+  <TableOfContentsElement
+    <HeadingElement, level=3
+      "Contents"
+    >
+  >
+  <TableOfContentsElement
+    <ParagraphElement, is_math_formula=False
+      <StrongElement
+        "1 Table of Contents 1"
+      >
+    >
+  >
+  <TableOfContentsElement
+    <ParagraphElement, is_math_formula=False
+      <StrongElement
+        "2 Math align 1"
+      >
+    >
+  >
+  <TableOfContentsElement
+    <ParagraphElement, is_math_formula=False
+      <StrongElement
+        "3 Long Dashes 1"
+      >
+    >
+  >
+  <TableOfContentsElement
+    <ParagraphElement, is_math_formula=False
+      <StrongElement
+        "4 Mathematical Expressions 1"
+      >
+    >
+  >
+  <TableOfContentsElement
+    <ParagraphElement, is_math_formula=False
+      <StrongElement
+        "5 Text Formatting 2"
+      >
+    >
+  >
+  <TableOfContentsElement
+    <ParagraphElement, is_math_formula=False
+      <StrongElement
+        "6 Algorithm 2"
+      >
+    >
+  >
+  <TableOfContentsElement
+    <ParagraphElement, is_math_formula=False
+      <StrongElement
+        "7 Tables 2"
+      >
+    >
+  >
+  <TableOfContentsElement
+    <ParagraphElement, is_math_formula=False
+      <StrongElement
+        "8 Small tests 2"
+      >
+    >
+  >
+  <HeadingElement, level=3
+    "Abstract"
+  >
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    "This line should flow naturally without interruption! The next line demonstrates proper handling of mathemati<Hyphen '-'>cal expressions with appropriate line spacing. This line properly displays mathematical notation "
+    <MathElement, code=math(code='\\(2^{(\\tilde{O}\\sqrt{n})}\\)'), is_display=False, is_inline=True, is_eq_num=False
+      "2"
+      <SuperscriptElement
+        "(~"
+        <EmphasisElement
+          "O"
+        >
+        "√"
+        <EmphasisElement
+          "n"
+        >
+        ")"
+      >
+    >
+    ", which represents optimal complexity."
+    <LinebreakElement />
+    "This line correctly appears after a manual line break."
+  >
+  <EndOfParagraphElement />
+  <HeadingElement, level=3
+    "1 Table of Contents"
+  >
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    "This section demonstrates proper table of contents gen<Hyphen '-'>eration and formatting."
+  >
+  <EndOfParagraphElement />
+  <HeadingElement, level=3
+    "2 Math align"
+  >
+  <ParagraphElement, is_math_formula=False
+    "Before align"
+  >
+  <AlignBlockElement, starred=True, env_name=align
+    <DisplayMathElement, has_eq_num=False
+      <BeginOfParagraphElement />
+      <MathElement, code=math(code='\\(\\sum_{i=1}^ni^2=\\frac{(n^2+n)(2n+1)}{6}\\)'), is_display=True, is_inline=True, is_eq_num=False
+        <SuperscriptElement
+          <EmphasisElement
+            "n"
+          >
+        >
+        "\unknown{cmex10}{0058}"
+        <SubscriptElement
+          <EmphasisElement
+            "i"
+          >
+          "=1"
+        >
+        <EmphasisElement
+          "i"
+        >
+        <SuperscriptElement
+          "2"
+        >
+        "=("
+        <EmphasisElement
+          "n"
+        >
+        <SuperscriptElement
+          "2"
+        >
+        "+"
+        <EmphasisElement
+          "n"
+        >
+        ")(2"
+        <EmphasisElement
+          "n"
+        >
+        "+1) 6"
+      >
+      <EndOfParagraphElement />
+    >
+    <DisplayMathElement, has_eq_num=False
+      <BeginOfParagraphElement />
+      <MathElement, code=math(code='\\(=\\text{Thumb}\\cdot\\pi\\)'), is_display=True, is_inline=True, is_eq_num=False
+        "=Thumb·"
+        <EmphasisElement
+          "π"
+        >
+      >
+      <EndOfParagraphElement />
+    >
+  >
+  <ParagraphElement, is_math_formula=False
+    "After Align. This demonstrates proper mathematical alignment and formatting."
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <FootnoteElement
+    <FootnoteMarkElement
+      <MathElement, code=math(code='\\(^\\text{*}\\)'), is_display=False, is_inline=True, is_eq_num=False
+        <SuperscriptElement
+          "*"
+        >
+      >
+    >
+    " This footnote is directly after the last word of the page without new paragraph."
+  >
+  <FootnoteElement
+    <FootnoteMarkElement
+      <MathElement, code=math(code='\\(^\\text{†}\\)'), is_display=False, is_inline=True, is_eq_num=False
+        <SuperscriptElement
+          "†"
+        >
+      >
+    >
+    " Furthermore the reading order is maybe wrong for multi-column."
+  >
+  <HeadingElement, level=3
+    "3 Long Dashes"
+  >
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, justo vel tincidunt tincidunt, ipsum ligula ultricies odio, ac tincidunt ante diam nec ipsum. Donec sed diam vitae nisl ullamcorper condimentum. Praesent euismod, nisl quis aliquam ultrices, odio nibh ultrices justo, id auctor nunc nisl vitae nunc -- Lorem ipsum do<Hyphen '-'>lor sit amet -- consectetur adipiscing elit. This demon<Hyphen '-'>strates proper handling of em-dashes - and en-dashes - as well as regular hyphens like - in various contexts - throughout the text."
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    "This section provides comprehensive text content to demonstrate proper footnote handling and format<Hyphen '-'>ting. Lorem ipsum dolor sit amet, consectetur adipisc<Hyphen '-'>ing elit. Nulla euismod, justo vel tincidunt tincidunt, ip<Hyphen '-'>sum ligula ultricies odio, ac tincidunt ante diam nec ip<Hyphen '-'>sum. Donec sed diam vitae nisl ullamcorper condimen<Hyphen '-'>tum. Praesent euismod, nisl quis aliquam ultrices, odio nibh ultrices justo, id auctor nunc nisl vitae nuncligula ultricies odio. Lorem ipsum dolor sit amet, consecte<Hyphen '-'>tur adipiscing elit. Nulla euismod, justo vel tincidunt tincidunt, ipsum ligula ultricies odio, ac tincidunt ante diam nec ipsum. Donec sed diam vitae nisl ullamcorper condimentum. Praesent euismod, nisl quis aliquam ul<Hyphen '-'>trices, odio nibh ultrices justo, id auctor nunc nisl vitae nuncligula ultricies odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, justo vel tin<Hyphen '-'>cidunt tincidunt, ipsum ligula ultricies odio, ac tincidunt ante diam nec ipsum. Donec sed diam vitae nisl ullam<Hyphen '-'>corper condimentum. Praesent euismod, nisl quis ali<Hyphen '-'>quam ultrices, odio nibh ultrices justo, id auctor nunc nisl vitae nuncligula ultricies odio."
+  >
+  <EndOfParagraphElement />
+  <HeadingElement, level=3
+    "4 Mathematical Expressions"
+  >
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    "This section demonstrates proper rendering of various mathematical notations including subscripts and super<Hyphen '-'>scripts with proper nucleus handling like He"
+    <MathElement, code=math(code='\\(^+\\)'), is_display=False, is_inline=True, is_eq_num=False
+      <SuperscriptElement
+        "+"
+      >
+    >
+    " and He"
+    <MathElement, code=math(code='\\(_2\\)'), is_display=False, is_inline=True, is_eq_num=False
+      <SubscriptElement
+        "2"
+      >
+    >
+    "."
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    "Mathematical fractions like "
+    <MathElement, code=math(code='\\(\\frac{P}{k}\\)'), is_display=False, is_inline=True, is_eq_num=False
+      <EmphasisElement
+        "Pk"
+      >
+    >
+    " and units such as cm"
+    <MathElement, code=math(code='\\(^{-3}x\\)'), is_display=False, is_inline=True, is_eq_num=False
+      <SuperscriptElement
+        "-3"
+      >
+      <EmphasisElement
+        "x"
+      >
+    >
+    " display correctly with proper superscript formatting."
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    "Expressions like "
+    <MathElement, code=math(code='\\(n_e\\sim 0.08\\)'), is_display=False, is_inline=True, is_eq_num=False
+      <EmphasisElement
+        "n"
+        <SubscriptElement
+          "e"
+        >
+      >
+      "∼0"
+      <EmphasisElement
+        "."
+      >
+      "08"
+    >
+    " cm"
+    <MathElement, code=math(code='\\(^{-3}\\)'), is_display=False, is_inline=True, is_eq_num=False
+      <SuperscriptElement
+        "-3"
+      >
+    >
+    " properly render decimal numbers with correct formatting."
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    "Integration symbols like "
+    <MathElement, code=math(code='\\(\\int_0^z\\)'), is_display=False, is_inline=True, is_eq_num=False
+      "\unknown{cmex10}{0052}"
+      <SuperscriptElement
+        <EmphasisElement
+          "z"
+        >
+      >
+      <SubscriptElement
+        "0"
+      >
+    >
+    " display with appropri<Hyphen '-'>ate mathematical formatting."
+  >
+  <EndOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    "Mathematical alignment environments render with"
+  >
+  <FooterElement
+    <PageNumberElement
+      "1"
+    >
+  >
+>

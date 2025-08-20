@@ -1,0 +1,172 @@
+\documentclass{article}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{multicol}
+
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{colortbl}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{verbatim}
+\usepackage{multirow}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{tabularx}
+\usepackage[nottoc]{tocbibind}
+
+\usepackage[T1]{fontenc}
+
+\usepackage[utf8]{inputenc}
+
+\title{Title with formula ${E}^{2}$ and another ${E}^{2}$ and \textbf{bold} text.}
+\author{Author A \\
+    \texttt{authora@example.com} \\
+    Organization A \\
+    Author B \\
+    \texttt{authorb@example.com} \\
+    Organization A \\}
+\date{2024-01-01}
+
+\begin{document}
+\nvtexpyhook
+
+\maketitle
+
+\begin{abstract}
+This is the abstract. This is the abstract. This is the abstract. This is the abstract. This is the abstract.
+This is the abstract. This is the abstract. This is the abstract. This is the abstract. This is the abstract.
+\end{abstract}
+
+
+\begin{multicols}{2}
+
+\section{Basic formatting}
+\textbf{bold}, \textit{italic}, \textsl{(slender)italic}, \texttt{tt} \textsubscript{subscript} \textsuperscript{superscript}.
+
+% Put a quote
+\begin{quote}
+    \textit{``This is the iPhone moment of artificial intelligence''} - Jensen Huang
+\end{quote}
+
+\subsection{A figure}
+
+\begin{figure*}[htb]
+    \centering
+    \includegraphics[width=0.4\textwidth]{test1.png}
+    \caption{This is a super important figure!}
+    \label{fig:nvidia}
+\end{figure*}
+
+Reference to figure: \ref{fig:nvidia}.
+
+\section{Several formulas}
+
+Multiline formula:
+$$
+\sum_{i=1}^n i^2 = \frac{(n^2+n)(2n+1)}{6}
+$$
+
+Before align
+\begin{align*}
+\sum_{k=1}^n k^2 &= \frac{(n^2+n)(2n+1)}{6} \\
+\text{answer} &= \text{Thumb} \cdot \pi \\
+\end{align*}
+After Align
+
+\subsection{A table}
+
+\begin{table}[htb]
+\begin{tabular}{|l|c|r|}
+\hline
+\textbf{Header 1} & \textbf{Header 2} & \textbf{Header 3} \\ \hline
+Content 1         & Content 2         & Content 3         \\ \hline
+Content 4         & Content 5         & $a=b \over 5$         \\ \hline
+\end{tabular}
+\caption{This is a simple table}
+\end{table}
+
+% Table with multirow and multicolumn
+\begin{tabular}{|l|c|r|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Header 1}} & \textbf{Header 2} \\ \hline
+Content 1         & Content 2         & Content 3         \\ \hline
+Content 4         & \multicolumn{2}{c|}{\multirow{2}{*}{Content 5}}         \\ \cline{1-1}
+Content 6         & \multicolumn{2}{c|}{} \\ \hline
+\end{tabular}
+
+\subsection{Lists}
+
+A bullet list:
+\begin{itemize}
+    \item Item 1
+    \item Item 2 with multiple paragraphs of text: \\
+    This is a paragraph of text. \\
+    \begin{verbatim}
+    int main() {
+        return 0;
+    }
+    \end{verbatim}
+    \item Item 3
+    \begin{itemize}
+        \item Subitem 1
+        \item Subitem 2
+    \end{itemize}
+\end{itemize}
+
+A numbered list:
+\begin{enumerate}
+    \item Item 1
+    \item Item 2
+    \begin{enumerate}
+        \item Subitem 1
+        \item Subitem 2
+    \end{enumerate}
+\end{enumerate}
+
+
+\end{multicols}
+
+\section{Introduction}
+
+This is the content \footnote{This is a footnote} of the introduction.
+Inline formula: $i_1=\sum_{i=1}^n i$ With more text afterwards and $E = mc^2$ more formula.
+
+Some source code:
+\begin{verbatim}
+int main() {
+    return 0;
+}
+\end{verbatim}
+
+\begin{lstlisting}[frame=single, language=python, caption=Python example]
+if __name__ == "__main__":
+    print("Hello World")
+\end{lstlisting}
+
+Inline source code \verb|int main() { return 0; }| and some URL \url{https://www.example.com} and more text.
+
+Some bibtex reference \cite{ref1} and more \cite{ref2}.
+
+
+\subsection{Subsection}
+
+\subsubsection{Subsubsection}
+
+\paragraph{Paragraph}
+
+\subparagraph{Subparagraph}
+
+Subparagraph Text
+
+\section{Another section}
+
+Next section
+
+\section{Bibliography}
+
+\bibliographystyle{unsrt}
+\bibliography{refs}
+
+
+\end{document}

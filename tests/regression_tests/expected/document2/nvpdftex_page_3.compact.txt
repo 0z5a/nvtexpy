@@ -1,0 +1,398 @@
+<RootElement
+  <HeaderElement
+    <ParagraphElement, is_math_formula=False
+      "K"
+    >
+    <ParagraphElement, is_math_formula=False
+      "L"
+    >
+    <ParagraphElement, is_math_formula=False
+      "R"
+    >
+  >
+  <ParagraphElement, is_math_formula=False
+    <LayoutBlockElement
+      " "
+    >
+    <LayoutBlockElement
+      "Praesent euismod, nisl quis aliquam ultrices, odio nibh ultrices justo, id auctor nunc nisl vitae nuncligula ultricies odio."
+    >
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, justo vel tincidunt tincidunt, ip<Hyphen '-'>sum ligula ultricies odio, ac tincidunt ante diam nec ipsum. Donec sed diam vitae nisl ullamcorper condi<Hyphen '-'>mentum. Praesent euismod, nisl quis aliquam ultrices, odio nibh ultrices justo, id auctor nunc nisl vitae nun<Hyphen '-'>cligula ultricies odio."
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <HeadingElement, level=2
+    "Accent handling"
+  >
+  <ParagraphElement, is_math_formula=False
+    " Basic accent: "
+    <MathElement, code=math(code='\\(\\hat{a}+\\hat{aB}+\\hat{a}_1^2+\\hat{aB}_1^2\\)'), is_display=False, is_inline=True, is_eq_num=False
+      "^"
+      <EmphasisElement
+        "a"
+      >
+      "+^"
+      <EmphasisElement
+        "aB"
+      >
+      "+^"
+      <EmphasisElement
+        "a"
+      >
+      "21+^"
+      <EmphasisElement
+        "aB"
+      >
+      <SuperscriptElement
+        "2"
+      >
+      <SubscriptElement
+        "1"
+      >
+    >
+    " Basic wide accent: "
+    <MathElement, code=math(code='\\(\\widehat{a}+\\widehat{aB}+\\widehat{a}_1^2+\\widehat{aB}_1^2\\)'), is_display=False, is_inline=True, is_eq_num=False
+      "\unknown{cmex10}{0062}"
+      <EmphasisElement
+        "a"
+      >
+      "+\unknown{cmex10}{0063}"
+      <EmphasisElement
+        "aB"
+      >
+      "+\unknown{cmex10}{0062}"
+      <EmphasisElement
+        "a"
+      >
+      "21+\unknown{cmex10}{0063}"
+      <EmphasisElement
+        "aB"
+      >
+      <SuperscriptElement
+        "2"
+      >
+      <SubscriptElement
+        "1"
+      >
+    >
+    " Nested accents: "
+    <MathElement, code=math(code='\\(\\hat{\\tilde{a}}+\\hat{\\tilde{aB}}+\\hat{\\tilde{a}}_1^2+\\hat{\\tilde{aB}}_1^2\\)'), is_display=False, is_inline=True, is_eq_num=False
+      "^~"
+      <EmphasisElement
+        "a"
+      >
+      "+^~"
+      <SuppressElement
+        <EmphasisElement
+          "a"
+        >
+      >
+      <EmphasisElement
+        "B"
+      >
+      "+^~"
+      <EmphasisElement
+        "a"
+      >
+      <SuperscriptElement
+        "2"
+      >
+      <SubscriptElement
+        "1"
+      >
+      "+^~"
+      <SuppressElement
+        <EmphasisElement
+          "a"
+        >
+      >
+      <EmphasisElement
+        "B"
+      >
+      <SuperscriptElement
+        "2"
+      >
+      <SubscriptElement
+        "1"
+      >
+    >
+    " Nested wide accents: "
+    <MathElement, code=math(code='\\(\\widehat{\\widetilde{a}}+\\widehat{\\widetilde{aB}}+\\widehat{\\widetilde{a}}_1^2+\\widehat{\\widetilde{aB}}_1^2\\)'), is_display=False, is_inline=True, is_eq_num=False
+      "\unknown{cmex10}{0062}\unknown{cmex10}{0065}"
+      <EmphasisElement
+        "a"
+      >
+      "+\unknown{cmex10}{0063}\unknown{cmex10}{0066}"
+      <EmphasisElement
+        "aB"
+      >
+      "+\unknown{cmex10}{0062}\unknown{cmex10}{0065}"
+      <EmphasisElement
+        "a"
+      >
+      <SuperscriptElement
+        "2"
+      >
+      <SubscriptElement
+        "1"
+      >
+      "+\unknown{cmex10}{0063}\unknown{cmex10}{0066}"
+      <EmphasisElement
+        "aB"
+      >
+      <SuperscriptElement
+        "2"
+      >
+      <SubscriptElement
+        "1"
+      >
+    >
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <HeadingElement, level=2
+    "Math fonts"
+  >
+  <ParagraphElement, is_math_formula=False
+    " "
+    <MathElement, code=math(code='\\(\\mathcal{A}\\mathfrak{B}\\mathbb{C}\\)'), is_display=False, is_inline=True, is_eq_num=False
+      "ABC"
+    >
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    <MathElement, code=math(code='\\(a+b\\mathrm{a}+\\mathrm{b}\\mathit{a}+\\mathit{b}\\mathbf{a}+\\mathbf{b}\\mathsf{a}+\\mathsf{b}\\mathtt{a}+\\mathtt{b}\\)'), is_display=False, is_inline=True, is_eq_num=False
+      <EmphasisElement
+        "a"
+      >
+      "+"
+      <EmphasisElement
+        "b"
+      >
+      "a+b"
+      <EmphasisElement
+        "a"
+      >
+      "+"
+      <EmphasisElement
+        "b"
+      >
+      <StrongElement
+        "a"
+      >
+      "+"
+      <StrongElement
+        "b"
+      >
+      "a+b"
+      <CodeElement
+        "a"
+      >
+      "+"
+      <CodeElement
+        "b"
+      >
+    >
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    <MathElement, code=math(code='\\(\\mathbf{a}+b=5\\|\\)'), is_display=False, is_inline=True, is_eq_num=False
+      <StrongElement
+        <EmphasisElement
+          "a"
+        >
+      >
+      "+"
+      <EmphasisElement
+        "b"
+      >
+      "=5∥"
+    >
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    <MathElement, code=math(code='\\(\\mathbf{a}\\boldsymbol{+}\\mathbf{b}\\boldsymbol{=}\\mathbf{5}\\boldsymbol{\\|}\\)'), is_display=False, is_inline=True, is_eq_num=False
+      <StrongElement
+        <EmphasisElement
+          "a"
+        >
+      >
+      <StrongElement
+        "+"
+      >
+      <StrongElement
+        <EmphasisElement
+          "b"
+        >
+      >
+      <StrongElement
+        "="
+      >
+      <StrongElement
+        "5"
+      >
+      <StrongElement
+        "∥"
+      >
+    >
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    <MathElement, code=math(code='\\(h^{2_,+}\\)'), is_display=False, is_inline=True, is_eq_num=False
+      <EmphasisElement
+        "h"
+      >
+      <SuperscriptElement
+        "2"
+        <SubscriptElement
+          <EmphasisElement
+            ","
+          >
+        >
+        "+"
+      >
+    >
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <HeadingElement, level=2
+    <StrongElement
+      "2"
+    >
+    " 介 绍 "
+    <StrongElement
+      "1"
+    >
+    " 绍绍"
+  >
+  <ParagraphElement, is_math_formula=False
+    " . 介绍 中 x 中 中 只只 个个."
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <HeadingElement, level=2
+    "Table with math"
+  >
+  <ParagraphElement, is_math_formula=False
+    " "
+    <MathElement, code=math(code='\\(\\begin{array}{ c c c }\n\\text{Col1} & \\text{Col2} & \\text{Col3} \\\\\n\\sum_{i=0}^ni & \\text{hello} & a_b\n\\end{array}\\)'), is_display=False, is_inline=True, is_eq_num=False
+      <TableElement
+        <TableRowElement, border_top=True, border_bottom=False, is_first=True, is_last=False
+          <TableCellElement, colspan=1, rowspan=1, border_left=False, border_top=True, border_right=True, border_bottom=False
+            "Col1"
+          >
+          <TableCellElement, colspan=1, rowspan=1, border_left=True, border_top=True, border_right=True, border_bottom=False
+            "Col2"
+          >
+          <TableCellElement, colspan=1, rowspan=1, border_left=True, border_top=True, border_right=True, border_bottom=False
+            "Col3"
+          >
+        >
+        <TableRowElement, border_top=False, border_bottom=True, is_first=False, is_last=True
+          <TableCellElement, colspan=1, rowspan=1, border_left=False, border_top=False, border_right=True, border_bottom=True
+            <MathElement, code=math(code='\\(\\sum_{i=0}^ni\\)'), is_display=False, is_inline=True, is_eq_num=False
+              "\unknown{cmex10}{0050}"
+              <SuperscriptElement
+                <EmphasisElement
+                  "n"
+                >
+              >
+              <SubscriptElement
+                "i=0"
+              >
+              <EmphasisElement
+                "i"
+              >
+            >
+          >
+          <TableCellElement, colspan=1, rowspan=1, border_left=True, border_top=False, border_right=True, border_bottom=True
+            "hello"
+          >
+          <TableCellElement, colspan=1, rowspan=1, border_left=True, border_top=False, border_right=True, border_bottom=True
+            <MathElement, code=math(code='\\(a_b\\)'), is_display=False, is_inline=True, is_eq_num=False
+              <EmphasisElement
+                "a"
+                <SubscriptElement
+                  "b"
+                >
+              >
+            >
+          >
+        >
+      >
+    >
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <HeadingElement, level=2
+    "Special escapes"
+  >
+  <ParagraphElement, is_math_formula=False
+    " ****** Asterisks"
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    "---- Dashes"
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    "# No Heading"
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    "- Dash"
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    "* Dash"
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    "+ Dash"
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    "> Greater than"
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    "< Less than"
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    "_ Underscore"
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    "Markdown inline *abc*, _def_, **bold**, __italic__, ~~strikethrough~~, `code`, [link](http://example.com), ![Alt text][ref], <tag>tag</tag>, should be escaped"
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    "should not be escaped: #, -, &, +"
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <FooterElement
+    <PageNumberElement
+      "3"
+    >
+  >
+>

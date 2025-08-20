@@ -1,0 +1,386 @@
+<RootElement
+  <BeginOfParagraphElement />
+  <BeginOfParagraphElement />
+  <HeadingElement, level=1
+    "Title with formula "
+    <MathElement, code=math(code='\\(E^2\\)'), is_display=False, is_inline=True, is_eq_num=False
+      <EmphasisElement
+        "E"
+      >
+      <SuperscriptElement
+        "2"
+      >
+    >
+    " and another "
+    <MathElement, code=math(code='\\(E^2\\)'), is_display=False, is_inline=True, is_eq_num=False
+      <EmphasisElement
+        "E"
+      >
+      <SuperscriptElement
+        "2"
+      >
+    >
+    " and "
+    <StrongElement
+      "bold"
+    >
+    " text."
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    <MathElement, code=math(code='\\(\\begin{array}{ c }\n\\text{AuthorA} \\\\\n\\text{\\texttt{authora@example.com}} \\\\\n\\text{OrganizationA} \\\\\n\\text{AuthorB} \\\\\n\\text{\\texttt{authorb@example.com}} \\\\\n\\text{OrganizationA}\n\\end{array}\\)'), is_display=False, is_inline=True, is_eq_num=False
+      <ParagraphElement, is_math_formula=False
+        "Author A"
+        <LinebreakElement />
+        <CodeElement
+          "authora@example.com"
+        >
+        <LinebreakElement />
+        "Organization A"
+        <LinebreakElement />
+        "Author B"
+        <LinebreakElement />
+        <CodeElement
+          "authorb@example.com"
+        >
+        <LinebreakElement />
+        "Organization A"
+      >
+    >
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    "2024-01-01"
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    " "
+    <StrongElement
+      "Abstract"
+    >
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    " This is the abstract. This is the abstract. This is the abstract. This is the abstract. This is the abstract. This is the abstract. This is the abstract. This is the abstract. This is the abstract. This is the abstract."
+  >
+  <EndOfParagraphElement />
+  <HeadingElement, level=3
+    "1 Basic formatting"
+  >
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    <StrongElement
+      "bold"
+    >
+    ", "
+    <EmphasisElement
+      "italic"
+    >
+    ", "
+    <EmphasisElement
+      "(slender)italic"
+    >
+    ", "
+    <CodeElement
+      "tt"
+    >
+    " "
+    <MathElement, code=math(code='\\(_\\text{subscript}^\\text{superscript}\\)'), is_display=False, is_inline=True, is_eq_num=False
+      <SubscriptElement
+        "subscript"
+      >
+      <SuperscriptElement
+        "superscript"
+      >
+    >
+    "."
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    " "
+    <EmphasisElement
+      ""This is the iPhone moment of artificial in<Hyphen '-'>telligence""
+    >
+    " - Jensen Huang"
+  >
+  <EndOfParagraphElement />
+  <HeadingElement, level=4
+    "1.1 A figure"
+  >
+  <ParagraphElement, is_math_formula=False
+    "Reference to figure: 1."
+  >
+  <EndOfParagraphElement />
+  <HeadingElement, level=3
+    "2 Several formulas"
+  >
+  <ParagraphElement, is_math_formula=False
+    "Multiline formula:"
+  >
+  <ParagraphElement, is_math_formula=False
+    <MathElement, code=math(code='\\(\\sum_{i=1}^ni^2=\\frac{(n^2+n)(2n+1)}{6}\\)'), is_display=True, is_inline=True, is_eq_num=False
+      <SuperscriptElement
+        <EmphasisElement
+          "n"
+        >
+      >
+      "\unknown{cmex10}{0058}"
+      <SubscriptElement
+        <EmphasisElement
+          "i"
+        >
+        "=1"
+      >
+      <EmphasisElement
+        "i"
+      >
+      <SuperscriptElement
+        "2"
+      >
+      "=("
+      <EmphasisElement
+        "n"
+      >
+      <SuperscriptElement
+        "2"
+      >
+      "+"
+      <EmphasisElement
+        "n"
+      >
+      ")(2"
+      <EmphasisElement
+        "n"
+      >
+      "+1) 6"
+    >
+  >
+  <ParagraphElement, is_math_formula=False
+    "Before align"
+  >
+  <AlignBlockElement, starred=True, env_name=align
+    <DisplayMathElement, has_eq_num=False
+      <BeginOfParagraphElement />
+      <MathElement, code=math(code='\\(\\sum_{k=1}^nk^2=\\frac{(n^2+n)(2n+1)}{6}\\)'), is_display=True, is_inline=True, is_eq_num=False
+        <SuperscriptElement
+          <EmphasisElement
+            "n"
+          >
+        >
+        "\unknown{cmex10}{0058}"
+        <SubscriptElement
+          <EmphasisElement
+            "k"
+          >
+          "=1"
+        >
+        <EmphasisElement
+          "k"
+        >
+        <SuperscriptElement
+          "2"
+        >
+        "=("
+        <EmphasisElement
+          "n"
+        >
+        <SuperscriptElement
+          "2"
+        >
+        "+"
+        <EmphasisElement
+          "n"
+        >
+        ")(2"
+        <EmphasisElement
+          "n"
+        >
+        "+1) 6"
+      >
+      <EndOfParagraphElement />
+    >
+    <DisplayMathElement, has_eq_num=False
+      <BeginOfParagraphElement />
+      <MathElement, code=math(code='\\(\\text{answer}=\\text{Thumb}\\cdot\\pi\\)'), is_display=True, is_inline=True, is_eq_num=False
+        "answer=Thumb·"
+        <EmphasisElement
+          "π"
+        >
+      >
+      <EndOfParagraphElement />
+    >
+  >
+  <ParagraphElement, is_math_formula=False
+    "After Align"
+  >
+  <EndOfParagraphElement />
+  <HeadingElement, level=4
+    "2.1 A table"
+  >
+  <ParagraphElement, is_math_formula=False
+    <MathElement, code=math(code='\\(\\begin{array}{ c c c }\n\\multicolumn{2}{c}{\\text{\\textbf{Header1}}} & \\multicolumn{2}{c}{\\text{\\textbf{Header1}}} & \\text{\\textbf{Header2}} \\\\\n\\text{Content1} & \\text{Content2} & \\text{Content3} \\\\\n\\text{Content4} & \\multirow{2}{*}{\\multicolumn{2}{c}{\\text{Content 5}}} & \\multirow{2}{*}{\\multicolumn{2}{c}{\\text{Content 5}}} \\\\\n\\text{Content6} & \\multirow{2}{*}{\\multicolumn{2}{c}{\\text{Content 5}}} & \\multirow{2}{*}{\\multicolumn{2}{c}{\\text{Content 5}}}\n\\end{array}\\)'), is_display=False, is_inline=True, is_eq_num=False
+      <TableElement
+        <TableRowElement, border_top=False, border_bottom=False, is_first=True, is_last=False
+          <TableCellElement, colspan=2, rowspan=1, border_left=True, border_top=False, border_right=True, border_bottom=False
+            <StrongElement
+              "Header 1"
+            >
+          >
+          <TableCellElement, colspan=1, rowspan=1, border_left=True, border_top=False, border_right=True, border_bottom=False
+            <StrongElement
+              "Header 2"
+            >
+          >
+        >
+        <TableRowElement, border_top=False, border_bottom=False, is_first=False, is_last=False
+          <TableCellElement, colspan=1, rowspan=1, border_left=True, border_top=False, border_right=True, border_bottom=False
+            "Content 1"
+          >
+          <TableCellElement, colspan=1, rowspan=1, border_left=True, border_top=False, border_right=True, border_bottom=False
+            "Content 2"
+          >
+          <TableCellElement, colspan=1, rowspan=1, border_left=True, border_top=False, border_right=True, border_bottom=False
+            "Content 3"
+          >
+        >
+        <TableRowElement, border_top=False, border_bottom=False, is_first=False, is_last=False
+          <TableCellElement, colspan=1, rowspan=1, border_left=True, border_top=False, border_right=True, border_bottom=True
+            "Content 4"
+          >
+          <TableCellElement, colspan=2, rowspan=2, border_left=True, border_top=False, border_right=True, border_bottom=False
+            "Content 5"
+          >
+        >
+        <TableRowElement, border_top=False, border_bottom=False, is_first=False, is_last=True
+          <TableCellElement, colspan=1, rowspan=1, border_left=True, border_top=True, border_right=True, border_bottom=False
+            "Content 6"
+          >
+        >
+      >
+    >
+  >
+  <EndOfParagraphElement />
+  <HeadingElement, level=4
+    "2.2 Lists"
+  >
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    "A bullet list:"
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <UnorderedListElement
+    <ListItemElement
+      <ListItemLabelElement
+        "•"
+      >
+      "Item 1"
+    >
+    <ListItemElement
+      <ListItemLabelElement
+        "•"
+      >
+      <ParagraphElement, is_math_formula=False
+        "Item 2 with multiple paragraphs of text:"
+        <LinebreakElement />
+        "This is a paragraph of text."
+      >
+      <CodeBlockElement
+        <ParagraphElement, is_math_formula=False
+          "    "
+          <CodeElement
+            "int main() {"
+          >
+        >
+        <ParagraphElement, is_math_formula=False
+          " "
+          <CodeElement
+            "       return 0;"
+          >
+        >
+        <ParagraphElement, is_math_formula=False
+          " "
+          <CodeElement
+            "   }"
+          >
+        >
+        <ParagraphElement, is_math_formula=False
+          " "
+          <CodeElement
+            "   "
+          >
+        >
+      >
+    >
+    <ListItemElement
+      <ListItemLabelElement
+        "•"
+      >
+      <ParagraphElement, is_math_formula=False
+        "Item 3"
+      >
+      <UnorderedListElement
+        <ListItemElement
+          <ListItemLabelElement
+            "–"
+          >
+          "Subitem 1"
+        >
+        <ListItemElement
+          <ListItemLabelElement
+            <StrongElement
+              "–"
+            >
+          >
+          "Subitem 2"
+        >
+      >
+    >
+  >
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    "A numbered list:"
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <OrderedListElement
+    <ListItemElement
+      <ListItemLabelElement
+        "1."
+      >
+      "Item 1"
+    >
+    <ListItemElement
+      <ListItemLabelElement
+        "2."
+      >
+      <ParagraphElement, is_math_formula=False
+        "Item 2"
+      >
+      <OrderedListElement
+        <ListItemElement
+          <ListItemLabelElement
+            "(a)"
+          >
+          "Subitem 1"
+        >
+        <ListItemElement
+          <ListItemLabelElement
+            "(b)"
+          >
+          "Subitem 2"
+        >
+      >
+    >
+  >
+  <FooterElement
+    <PageNumberElement
+      "1"
+    >
+  >
+>

@@ -1,0 +1,143 @@
+<box class="Title" bbox="492_458_1497_59">
+# Title with formula _E_<sup>2</sup> and another _E_<sup>2</sup> and bold text.
+</box>
+
+<box class="Text" bbox="956_602_568_335">
+Author A<br>
+`authora@example.com`<br>
+Organization A<br>
+Author B<br>
+`authorb@example.com`<br>
+Organization A
+</box>
+
+<box class="Text" bbox="1124_990_232_34">
+2024-01-01
+</box>
+
+<box class="Text" bbox="1171_1147_139_26">
+**Abstract**
+</box>
+
+<box class="Text" bbox="404_1216_1673_71">
+This is the abstract. This is the abstract. This is the abstract. This is the abstract. This is the abstract. This is the abstract. This is the abstract. This is the abstract. This is the abstract. This is the abstract.
+</box>
+
+<box class="Section-header" bbox="300_1346_515_53">
+### 1 Basic formatting
+</box>
+
+<box class="Text" bbox="300_1445_774_47">
+**bold**, _italic_, _(slender)italic_, `tt` <sub>subscript</sub><sup>superscript</sup>.
+</box>
+
+<box class="Text" bbox="404_1523_712_87">
+_"This is the iPhone moment of artificial intelligence"_ - Jensen Huang
+</box>
+
+<box class="Section-header" bbox="300_1681_284_44">
+#### 1.1 A figure
+</box>
+
+<box class="Text" bbox="300_1765_374_37">
+Reference to figure: 1.
+</box>
+
+<box class="Section-header" bbox="300_1889_520_42">
+### 2 Several formulas
+</box>
+
+<box class="Text" bbox="300_1995_308_29">
+Multiline formula:<tbc>
+</box>
+
+<box class="Formula" bbox="527_2053_461_113">
+\(\sum_{i=1}^ni^2=\frac{(n^2+n)(2n+1)}{6}\)
+</box>
+
+<box class="Text" bbox="362_2196_206_37">
+<tbc>Before align
+</box>
+
+<box class="Formula" bbox="518_2263_479_170">
+\(\sum_{k=1}^nk^2=\frac{(n^2+n)(2n+1)}{6}\)<br>
+\(\text{answer}=\text{Thumb}\cdot\pi\)
+</box>
+
+<box class="Text" bbox="300_2538_193_37">
+After Align
+</box>
+
+<box class="Section-header" bbox="300_2647_266_35">
+#### 2.1 A table
+</box>
+
+<box class="Table" bbox="300_2765_644_203">
+\begin{tabular}{c c c}
+\multicolumn{2}{c}{**Header 1**} & **Header 2** \\
+Content 1 & Content 2 & Content 3 \\
+Content 4 & \multicolumn{2}{c}{\multirow{2}{*}{Content 5}} \\
+Content 6 &  &  \\
+\end{tabular}
+</box>
+
+<box class="Section-header" bbox="1261_1353_214_35">
+#### 2.2 Lists
+</box>
+
+<box class="Text" bbox="1261_1452_207_29">
+A bullet list:
+</box>
+
+<box class="List-item" bbox="1329_1559_143_29">
+• Item 1<tbc>
+</box>
+
+<box class="List-item" bbox="1329_1674_696_87">
+• Item 2 with multiple paragraphs of text:<br>
+This is a paragraph of text.<tbc>
+</box>
+
+<box class="Code" bbox="1365_1907_423_176">
+```
+    int main() {
+        return 0;
+    }
+```
+</box>
+
+<box class="List-item" bbox="1329_2187_143_29">
+• Item 3<tbc>
+</box>
+
+<box class="List-item" bbox="1415_2302_211_29">
+– Subitem 1<tbc>
+</box>
+
+<box class="List-item" bbox="1415_2385_211_29">
+**–** Subitem 2
+</box>
+
+<box class="Text" bbox="1323_2500_279_29">
+A numbered list:
+</box>
+
+<box class="List-item" bbox="1313_2607_159_29">
+1. Item 1<tbc>
+</box>
+
+<box class="List-item" bbox="1313_2722_159_29">
+2. Item 2<tbc>
+</box>
+
+<box class="List-item" bbox="1389_2838_236_36">
+(a) Subitem 1<tbc>
+</box>
+
+<box class="List-item" bbox="1387_2920_239_36">
+(b) Subitem 2<tbc>
+</box>
+
+<box class="Page-footer" bbox="1230_3304_21_28">
+1
+</box>

@@ -1,0 +1,43 @@
+name: Build and Test with nvtexlive
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+  workflow_dispatch:
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout nvtexlive repository
+        uses: actions/checkout@v4
+        with:
+          repository: NVIDIA/nvtexlive
+          ref: nvtexlive
+          path: nvtexlive
+          token: ${{ secrets.NVTEXLIVE_ACCESS_TOKEN }}
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build nvtexlive Docker image
+        run: |
+          cd nvtexlive
+          docker build -t nvtexlive:latest -f Dockerfile . --no-cache
+
+      - name: Checkout nvtexpy repository
+        uses: actions/checkout@v4
+        with:
+          path: nvtexpy
+          lfs: true
+
+      - name: Run regression tests
+        run: |
+          docker run --rm \
+            -v ${{ github.workspace }}/nvtexpy:/nvtexpy \
+            -w /nvtexpy \
+            nvtexlive:latest \
+            sh -c "pip3 install --no-cache-dir -e '.[test]' && python3 -m pytest tests/regression_tests/ -v --tb=short"

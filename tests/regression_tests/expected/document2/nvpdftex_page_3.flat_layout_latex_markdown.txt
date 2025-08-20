@@ -1,0 +1,113 @@
+<box class="Page-header" bbox="1225_146_955_77">
+K<br>
+L<br>
+R
+</box>
+
+<box class="Text" bbox="300_313_907_128">
+<tbc>Praesent euismod, nisl quis aliquam ultrices, odio nibh ultrices justo, id auctor nunc nisl vitae nuncligula ultricies odio.
+</box>
+
+<box class="Text" bbox="300_504_898_336">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, justo vel tincidunt tincidunt, ipsum ligula ultricies odio, ac tincidunt ante diam nec ipsum. Donec sed diam vitae nisl ullamcorper condimentum. Praesent euismod, nisl quis aliquam ultrices, odio nibh ultrices justo, id auctor nunc nisl vitae nuncligula ultricies odio.
+</box>
+
+<box class="Section-header" bbox="300_924_291_37">
+## Accent handling
+</box>
+
+<box class="Text" bbox="299_905_920_270">
+Basic accent: \(\hat{a}+\hat{aB}+\hat{a}_1^2+\hat{aB}_1^2\) Basic wide accent: \(\widehat{a}+\widehat{aB}+\widehat{a}_1^2+\widehat{aB}_1^2\) Nested accents: \(\hat{\tilde{a}}+\hat{\tilde{aB}}+\hat{\tilde{a}}_1^2+\hat{\tilde{aB}}_1^2\) Nested wide accents: \(\widehat{\widetilde{a}}+\widehat{\widetilde{aB}}+\widehat{\widetilde{a}}_1^2+\widehat{\widetilde{aB}}_1^2\)
+</box>
+
+<box class="Section-header" bbox="300_1247_194_29">
+## Math fonts
+</box>
+
+<box class="Text" bbox="535_1246_100_29">
+ABC
+</box>
+
+<box class="Text" bbox="362_1296_569_32">
+_a_+_b_a+b_a_+_b_**a**+**b**a+b`a`+`b`
+</box>
+
+<box class="Formula" bbox="362_1344_211_91">
+\(\mathbf{a}+b=5\|\)<br>
+\(\mathbf{a}\boldsymbol{+}\mathbf{b}\boldsymbol{=}\mathbf{5}\boldsymbol{\|}\)
+</box>
+
+<box class="Text" bbox="362_1441_78_34">
+_h_<sup>2<sub>_,_</sub>+</sup>
+</box>
+
+<box class="Section-header" bbox="300_1550_249_38">
+## 2 介 绍 1 绍绍
+</box>
+
+<box class="Text" bbox="591_1550_488_38">
+. 介绍 中 x 中 中 只只 个个.
+</box>
+
+<box class="Section-header" bbox="300_1698_289_29">
+## Table with math
+</box>
+
+<box class="Table" bbox="631_1668_434_100">
+\begin{tabular}{c c c}
+Col1 & Col2 & Col3 \\
+\(\sum_{i=0}^ni\) & hello & _a<sub>b</sub>_ \\
+\end{tabular}
+</box>
+
+<box class="Section-header" bbox="300_1843_269_37">
+## Special escapes
+</box>
+
+<box class="Text" bbox="610_1844_289_29">
+\*\*\*\*\*\* Asterisks
+</box>
+
+<box class="Text" bbox="362_1893_213_29">
+\---- Dashes
+</box>
+
+<box class="Text" bbox="362_1943_233_37">
+\# No Heading
+</box>
+
+<box class="Text" bbox="362_1993_110_29">
+\- Dash
+</box>
+
+<box class="Text" bbox="362_2043_116_29">
+\* Dash
+</box>
+
+<box class="Text" bbox="362_2093_119_29">
+\+ Dash
+</box>
+
+<box class="Text" bbox="362_2143_240_29">
+\> Greater than
+</box>
+
+<box class="Text" bbox="362_2192_192_29">
+\< Less than
+</box>
+
+<box class="Text" bbox="362_2242_222_33">
+\_ Underscore
+</box>
+
+<box class="Text" bbox="300_2292_937_137">
+Markdown inline \*abc\*, \_def\_, \*\*bold\*\*, \_\_italic\_\_, \~~strikethrough\~~, \`code\`, [link\](http://example.com), ![Alt text\][ref], \<tag\>tag\</tag\>, should be escaped
+</box>
+
+<box class="Text" bbox="362_2441_542_37">
+should not be escaped: #, -, &, +
+</box>
+
+<box class="Page-footer" bbox="1230_3304_21_29">
+3
+</box>

@@ -1,0 +1,134 @@
+<box class="Page-header" bbox="1225_146_955_77">
+K<br>
+L<br>
+R
+</box>
+
+<box class="Title" bbox="1087_337_307_42">
+<h1>Document 2</h1>
+</box>
+
+<box class="Text" bbox="337_447_1818_224">
+<strong>Author C</strong><sup>1∗</sup><strong>, Author D</strong><sup>2†</sup><strong>, Author E</strong><sup>2</sup><strong>,</strong><br>
+<strong>Author F</strong><sup>2</sup><strong>, Author G</strong><sup>1†</sup><strong>, Author H</strong><sup>1</sup><br>
+Organization B<sup>1</sup>, Organization C<sup>2</sup><br>
+<code>{authorc, authorg}@example.com</code>, <code>{authord, authore}@example.com</code>
+</box>
+
+<box class="Section-header" bbox="300_771_229_42">
+<h3>Contents</h3>
+</box>
+
+<box class="TOC" bbox="300_876_919_29">
+<strong>1 Table of Contents 1</strong><tbc>
+</box>
+
+<box class="TOC" bbox="300_968_919_37">
+<strong>2 Math align 1</strong><tbc>
+</box>
+
+<box class="TOC" bbox="300_1059_919_37">
+<strong>3 Long Dashes 1</strong><tbc>
+</box>
+
+<box class="TOC" bbox="300_1150_919_37">
+<strong>4 Mathematical Expressions 1</strong><tbc>
+</box>
+
+<box class="TOC" bbox="300_1242_919_37">
+<strong>5 Text Formatting 2</strong><tbc>
+</box>
+
+<box class="TOC" bbox="300_1333_919_37">
+<strong>6 Algorithm 2</strong><tbc>
+</box>
+
+<box class="TOC" bbox="300_1424_919_29">
+<strong>7 Tables 2</strong><tbc>
+</box>
+
+<box class="TOC" bbox="300_1516_919_29">
+<strong>8 Small tests 2</strong>
+</box>
+
+<box class="Section-header" bbox="300_1643_222_42">
+<h3>Abstract</h3>
+</box>
+
+<box class="Text" bbox="300_1749_928_291">
+This line should flow naturally without interruption! The next line demonstrates proper handling of mathematical expressions with appropriate line spacing. This line properly displays mathematical notation \(2^{(\tilde{O}\sqrt{n})}\), which represents optimal complexity.<br>
+This line correctly appears after a manual line break.
+</box>
+
+<box class="Section-header" bbox="300_2130_539_42">
+<h3>1 Table of Contents</h3>
+</box>
+
+<box class="Text" bbox="300_2236_919_87">
+This section demonstrates proper table of contents generation and formatting.
+</box>
+
+<box class="Section-header" bbox="300_2413_370_53">
+<h3>2 Math align</h3>
+</box>
+
+<box class="Text" bbox="300_2519_206_37">
+Before align
+</box>
+
+<box class="Formula" bbox="527_2606_461_169">
+\(\sum_{i=1}^ni^2=\frac{(n^2+n)(2n+1)}{6}\)<br>
+\(=\text{Thumb}\cdot\pi\)
+</box>
+
+<box class="Text" bbox="300_2900_919_87">
+After Align. This demonstrates proper mathematical alignment and formatting.
+</box>
+
+<box class="Footnote" bbox="300_3029_919_70">
+<sup>*</sup> This footnote is directly after the last word of the page without new paragraph.
+</box>
+
+<box class="Footnote" bbox="345_3104_874_36">
+<sup>†</sup> Furthermore the reading order is maybe wrong for multi-column.
+</box>
+
+<box class="Section-header" bbox="1261_771_417_53">
+<h3>3 Long Dashes</h3>
+</box>
+
+<box class="Text" bbox="1261_877_932_485">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, justo vel tincidunt tincidunt, ipsum ligula ultricies odio, ac tincidunt ante diam nec ipsum. Donec sed diam vitae nisl ullamcorper condimentum. Praesent euismod, nisl quis aliquam ultrices, odio nibh ultrices justo, id auctor nunc nisl vitae nunc -- Lorem ipsum dolor sit amet -- consectetur adipiscing elit. This demonstrates proper handling of em-dashes - and en-dashes - as well as regular hyphens like - in various contexts - throughout the text.
+</box>
+
+<box class="Text" bbox="1261_1375_919_1033">
+This section provides comprehensive text content to demonstrate proper footnote handling and formatting. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, justo vel tincidunt tincidunt, ipsum ligula ultricies odio, ac tincidunt ante diam nec ipsum. Donec sed diam vitae nisl ullamcorper condimentum. Praesent euismod, nisl quis aliquam ultrices, odio nibh ultrices justo, id auctor nunc nisl vitae nuncligula ultricies odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, justo vel tincidunt tincidunt, ipsum ligula ultricies odio, ac tincidunt ante diam nec ipsum. Donec sed diam vitae nisl ullamcorper condimentum. Praesent euismod, nisl quis aliquam ultrices, odio nibh ultrices justo, id auctor nunc nisl vitae nuncligula ultricies odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, justo vel tincidunt tincidunt, ipsum ligula ultricies odio, ac tincidunt ante diam nec ipsum. Donec sed diam vitae nisl ullamcorper condimentum. Praesent euismod, nisl quis aliquam ultrices, odio nibh ultrices justo, id auctor nunc nisl vitae nuncligula ultricies odio.
+</box>
+
+<box class="Section-header" bbox="1261_2498_764_53">
+<h3>4 Mathematical Expressions</h3>
+</box>
+
+<box class="Text" bbox="1261_2604_919_137">
+This section demonstrates proper rendering of various mathematical notations including subscripts and superscripts with proper nucleus handling like He<sup>+</sup> and He<sub>2</sub>.
+</box>
+
+<box class="Text" bbox="1261_2746_967_95">
+Mathematical fractions like \(\frac{P}{k}\) and units such as cm<sup>-3</sup><em>x</em> display correctly with proper superscript formatting.
+</box>
+
+<box class="Text" bbox="1261_2848_919_93">
+Expressions like <em>n<sub>e</sub></em>∼0<em>.</em>08 cm<sup>-3</sup> properly render decimal numbers with correct formatting.
+</box>
+
+<box class="Text" bbox="1261_2945_919_94">
+Integration symbols like \(\int_0^z\) display with appropriate mathematical formatting.
+</box>
+
+<box class="Text" bbox="1323_3052_857_37">
+Mathematical alignment environments render with<tbc>
+</box>
+
+<box class="Page-footer" bbox="1230_3304_21_28">
+1
+</box>

@@ -1,0 +1,192 @@
+<RootElement
+  <BeginOfParagraphElement />
+  <FloatElement, environment=figure
+    <ParagraphElement, is_math_formula=False
+      <GraphicsElement />
+    >
+    <ParagraphElement, is_math_formula=False
+      "Figure 1: This is a super important figure!"
+    >
+  >
+  <HeadingElement, level=2
+    "3 Introduction"
+  >
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    "This is the content "
+    <FootnoteMarkElement
+      <MathElement, code=math(code='\\(^\\text{1}\\)'), is_display=False, is_inline=True, is_eq_num=False
+        <SuperscriptElement
+          "1"
+        >
+      >
+    >
+    " of the introduction. Inline formula: "
+    <MathElement, code=math(code='\\(i_1=\\sum_{i=1}^ni\\)'), is_display=False, is_inline=True, is_eq_num=False
+      <EmphasisElement
+        "i"
+      >
+      <SubscriptElement
+        "1"
+      >
+      "=\unknown{cmex10}{0050}"
+      <SuperscriptElement
+        <EmphasisElement
+          "n"
+        >
+      >
+      <SubscriptElement
+        "i=1"
+      >
+      <EmphasisElement
+        "i"
+      >
+    >
+    " With more text afterwards and "
+    <MathElement, code=math(code='\\(E=mc^2\\)'), is_display=False, is_inline=True, is_eq_num=False
+      <EmphasisElement
+        "E"
+      >
+      "="
+      <EmphasisElement
+        "m"
+      >
+      <EmphasisElement
+        "c"
+      >
+      <SuperscriptElement
+        "2"
+      >
+    >
+    " more formula."
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    "Some source code:"
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <CodeBlockElement
+    <ParagraphElement, is_math_formula=False
+      <CodeElement
+        "int main() {"
+      >
+    >
+    <ParagraphElement, is_math_formula=False
+      " "
+      <CodeElement
+        "   return 0;"
+      >
+    >
+    <ParagraphElement, is_math_formula=False
+      <CodeElement
+        "}"
+      >
+    >
+  >
+  <ParagraphElement, is_math_formula=False
+    " Listing 1: Python example"
+  >
+  <CodeBlockElement
+    <ParagraphElement, is_math_formula=False
+      <StrongElement
+        "if "
+      >
+      "__name__ == "__main__":"
+    >
+    <ParagraphElement, is_math_formula=False
+      "    "
+      <StrongElement
+        "print"
+      >
+      "("Hello World")"
+    >
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    "Inline source code "
+    <CodeElement
+      "int main() { return 0; }"
+    >
+    " and some URL "
+    <CodeElement
+      "https://www.example.com"
+    >
+    " and more text."
+  >
+  <EndOfParagraphElement />
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    "Some bibtex reference [1] and more [2]."
+  >
+  <EndOfParagraphElement />
+  <HeadingElement, level=3
+    "3.1 Subsection"
+  >
+  <HeadingElement, level=4
+    "3.1.1 Subsubsection"
+  >
+  <BeginOfParagraphElement />
+  <HeadingElement, level=5
+    "Paragraph"
+  >
+  <BeginOfParagraphElement />
+  <HeadingElement, level=5
+    "Subparagraph"
+  >
+  <ParagraphElement, is_math_formula=False
+    " Subparagraph Text"
+  >
+  <EndOfParagraphElement />
+  <HeadingElement, level=2
+    "4 Another section"
+  >
+  <BeginOfParagraphElement />
+  <ParagraphElement, is_math_formula=False
+    "Next section"
+  >
+  <EndOfParagraphElement />
+  <HeadingElement, level=2
+    "5 Bibliography"
+  >
+  <BibliographyElement
+    <HeadingElement, level=2
+      "References"
+    >
+  >
+  <BibliographyElement
+    <ParagraphElement, is_math_formula=False
+      "[1] John Smith. Example article title. "
+      <EmphasisElement
+        "Example Journal"
+      >
+      ", 2024."
+    >
+  >
+  <BibliographyElement
+    <ParagraphElement, is_math_formula=False
+      "[2] Jane Doe. "
+      <EmphasisElement
+        "Example Book Title"
+      >
+      ". Example Publisher, 2023."
+    >
+  >
+  <FootnoteElement
+    <FootnoteMarkElement
+      <MathElement, code=math(code='\\(^\\text{1}\\)'), is_display=False, is_inline=True, is_eq_num=False
+        <SuperscriptElement
+          "1"
+        >
+      >
+    >
+    "This is a footnote"
+  >
+  <FooterElement
+    <PageNumberElement
+      "2"
+    >
+  >
+>

@@ -1,0 +1,13 @@
+\begin{thebibliography}{1}
+
+\bibitem{ref1}
+John Smith.
+\newblock Example article title.
+\newblock {\em Example Journal}, 2024.
+
+\bibitem{ref2}
+Jane Doe.
+\newblock {\em Example Book Title}.
+\newblock Example Publisher, 2023.
+
+\end{thebibliography}

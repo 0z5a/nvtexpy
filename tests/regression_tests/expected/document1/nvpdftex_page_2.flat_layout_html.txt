@@ -1,0 +1,98 @@
+<box class="Picture" bbox="864_300_752_555">
+<img />
+</box>
+
+<box class="Caption" bbox="891_918_698_37">
+Figure 1: This is a super important figure!
+</box>
+
+<box class="Section-header" bbox="300_1038_414_42">
+<h2>3 Introduction</h2>
+</box>
+
+<box class="Text" bbox="300_1138_1878_85">
+This is the content <sup>1</sup> of the introduction. Inline formula: \(i_1=\sum_{i=1}^ni\) With more text afterwards and <em>E</em>=<em>mc</em><sup>2</sup> more formula.
+</box>
+
+<box class="Text" bbox="362_1244_314_29">
+Some source code:
+</box>
+
+<box class="Code" bbox="300_1328_324_131">
+<pre>
+int main() {
+    return 0;
+}
+</pre>
+</box>
+
+<box class="Text" bbox="1020_1547_441_37">
+Listing 1: Python example
+</box>
+
+<box class="Code" bbox="300_1612_641_87">
+<pre>
+if __name__ == "__main__":
+    print("Hello World")
+</pre>
+</box>
+
+<box class="Text" bbox="300_1752_1880_78">
+Inline source code <code>int main() { return 0; }</code> and some URL <code>https://www.example.com</code> and more text.
+</box>
+
+<box class="Text" bbox="362_1852_667_35">
+Some bibtex reference [1] and more [2].
+</box>
+
+<box class="Section-header" bbox="300_1964_342_35">
+<h3>3.1 Subsection</h3>
+</box>
+
+<box class="Section-header" bbox="300_2048_378_29">
+<h4>3.1.1 Subsubsection</h4>
+</box>
+
+<box class="Section-header" bbox="300_2126_191_37">
+<h5>Paragraph</h5>
+</box>
+
+<box class="Section-header" bbox="362_2236_258_37">
+<h5>Subparagraph</h5>
+</box>
+
+<box class="Text" bbox="662_2237_313_37">
+Subparagraph Text
+</box>
+
+<box class="Section-header" bbox="300_2364_493_42">
+<h2>4 Another section</h2>
+</box>
+
+<box class="Text" bbox="300_2469_208_29">
+Next section
+</box>
+
+<box class="Section-header" bbox="300_2596_424_53">
+<h2>5 Bibliography</h2>
+</box>
+
+<box class="Section-header" bbox="300_2714_278_42">
+<h2>References</h2>
+</box>
+
+<box class="Bibliography" bbox="300_2820_1042_37">
+[1] John Smith. Example article title. <em>Example Journal</em>, 2024.<tbc>
+</box>
+
+<box class="Bibliography" bbox="300_2903_1026_37">
+[2] Jane Doe. <em>Example Book Title</em>. Example Publisher, 2023.<tbc>
+</box>
+
+<box class="Footnote" bbox="345_3179_246_29">
+<sup>1</sup>This is a footnote
+</box>
+
+<box class="Page-footer" bbox="1230_3304_21_28">
+2
+</box>

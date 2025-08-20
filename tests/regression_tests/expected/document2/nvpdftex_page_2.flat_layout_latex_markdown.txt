@@ -1,0 +1,194 @@
+<box class="Page-header" bbox="1225_146_955_77">
+K<br>
+L<br>
+R
+</box>
+
+<box class="Text" bbox="300_313_431_37">
+<tbc>proper column alignment:
+</box>
+
+<box class="Formula" bbox="388_400_831_120">
+\(q\left(\mathbf{x}_1,\dots,\mathbf{x}_T|\mathbf{x}_0\right)=\prod_{t=1}^Tq\left(\mathbf{x}_t|\mathbf{x}_{t-1}\right)\) (1)
+</box>
+
+<box class="Formula" bbox="368_541_851_75">
+\(q\left(\mathbf{x}_t|\mathbf{x}_{t-1}\right)=\mathcal{N}\left(\mathbf{x}_t;\sqrt{1-\beta_t}\mathbf{x}_{t-1},\beta_t\mathbf{I}\right)\)(2)
+</box>
+
+<box class="Text" bbox="300_662_919_87">
+Complex equations display with proper formatting and automatic numbering:
+</box>
+
+<box class="Formula" bbox="300_796_1554_149">
+\(\big[\sqrt{(m+M)^2+2mM\big[\big(1+\frac{\hat{\mathbf{p}}^2}{m^2}\big)^{1/2}\big(1+\frac{\hat{\mathbf{q}}^2}{M^2}\big)^{1/2}-1\big]-2\mathbf{pq}}-\frac{\alpha(1-\hat{\mathbf{v}}_e\hat{\mathbf{v}}_p)}{|\mathbf{r}_e-\mathbf{r}_p|}\big]\psi=E\psi.\) (3)
+</box>
+
+<box class="Text" bbox="300_959_919_78">
+Equations maintain consistent numbering throughout the document:
+</box>
+
+<box class="Formula" bbox="450_1085_770_91">
+\(\Omega=\sum_n[\langle\mathbf{0}n|r^2|\mathbf{0}n\rangle-\langle\mathbf{0}n|r|\mathbf{0}n\rangle^2].\) (4)
+</box>
+
+<box class="Text" bbox="300_1226_919_137">
+This section demonstrates proper handling of mathematical content with appropriate spacing and formatting.
+</box>
+
+<box class="Text" bbox="300_1376_919_87">
+Equation arrays with nested structures display correctly:
+</box>
+
+<box class="Formula" bbox="456_1508_763_149">
+\(e^+e^-\rightarrow A^*H^*\rightarrow\left\{\begin{array}{ c }
+bbbb \\
+bb\tau\tau \\
+\tau\tau\tau\tau
+\end{array}\right..\) (5)
+</box>
+
+<box class="Section-header" bbox="300_1727_506_53">
+## 5 Text Formatting
+</box>
+
+<box class="Text" bbox="300_1833_919_137">
+This section demonstrates proper handling of text formatting including bold and italic text with consistent styling throughout the document.
+</box>
+
+<box class="Section-header" bbox="300_2060_355_53">
+## 6 Algorithm
+</box>
+
+<box class="Text" bbox="300_2166_932_87">
+This section showcases proper algorithm formatting with clear line numbering and text separation:
+</box>
+
+<box class="Caption" bbox="331_2326_381_38">
+**Algorithm 1:** Training
+</box>
+
+<box class="Code" bbox="362_2392_863_533">
+repeat<br>
+   Sample a sentence S with entities E from D<br>
+   Expand E and get entity boundaries B<br>
+   \(\mathbf{x}_0=\text{\textbf{B}}\in\mathbb{R}^{K\times 2}\)<br>
+  t∼ Uniform ({1,...,T})<br>
+  \(\epsilon\sim\mathcal{N}(\mathbf{0},\mathbf{I})\)<br>
+   \(\mathbf{x}_t=\sqrt{\bar{\alpha}_t}\mathbf{x}_0+\sqrt{1-\bar{\alpha}_t}\epsilon\)<br>
+   Compute P<sup>l</sup>, P<sup>r</sup> and P<sup>c</sup> by running \(f_\theta(\mathbf{x}_t,S,t)\)<br>
+   Take gradient descent step by optimize \(-\sum_{i=1}^K\left(log\mathbf{P}_i^c(\pi^c(i))+\sum_{\delta\in l,r}log\mathbf{P}_i^\delta(\pi^\delta(i))\right)\)<br>
+until converged;
+</box>
+
+<box class="Section-header" bbox="1261_300_254_42">
+## 7 Tables
+</box>
+
+<box class="Text" bbox="1261_406_919_78">
+This section demonstrates proper table formatting and structure:
+</box>
+
+<box class="Table" bbox="1323_504_653_460">
+\begin{tabular}{c c c c}
+ & Setting & Data1 & Data2 \\
+\multirow{3}{*}{Type1} & Option A & **88.99** & **92.89** \\
+ & Option B & 88.39 & 92.78 \\
+ & Option C & 86.93 & 92.02 \\
+\multirow{4}{*}{Type2} & DEFAULT & **88.39** & **92.78** \\
+ & w/o Feature2 & 87.94 & 92.25 \\
+ & w/o Feature3 & 87.22 & 91.40 \\
+ & w/o Feature4 & 87.09 & 91.63 \\
+\end{tabular}
+</box>
+
+<box class="Text" bbox="1261_978_919_87">
+This table demonstrates proper handling of merged cells and complex formatting:
+</box>
+
+<box class="Table" bbox="1323_1084_861_390">
+\begin{tabular}{c c c c}
+Method & Parameter (_P_) & Result1 & Result2 \\
+\multirow{3}{*}{Method A} & _P_=1000 & **88.39** & 91.56 \\
+ & _P_=1500 & 87.49 & **92.04** \\
+ & _P_=2000 & 88.33 & 91.79 \\
+\multirow{3}{*}{Method B} & _P_=1000 & **88.38** & 92.78 \\
+ & _P_=1500 & 87.83 & **92.87** \\
+ & _P_=2000 & 88.17 & 92.56 \\
+\end{tabular}
+</box>
+
+<box class="Text" bbox="1323_1489_601_37">
+Table with proper column spanning:
+</box>
+
+<box class="Table" bbox="1323_1546_261_100">
+\begin{tabular}{c c}
+Col1 & Col2 \\
+\multicolumn{2}{c}{**Merged**} \\
+\end{tabular}
+</box>
+
+<box class="Section-header" bbox="1261_1725_364_42">
+## 8 Small tests
+</box>
+
+<box class="Section-header" bbox="1261_1831_334_37">
+### Special Characters
+</box>
+
+<box class="Text" bbox="1261_1831_924_178">
+The following text contains paragraph symbols. Steps to detect (§3.1) and analyze (§3.2) bilingual instances, then detect (§3.3) and analyze (§3.4) translation instances.
+</box>
+
+<box class="Section-header" bbox="1261_2091_379_37">
+### Two bold paragraphs
+</box>
+
+<box class="Text" bbox="1682_2091_446_37">
+**This is a bold paragraph.**
+</box>
+
+<box class="Text" bbox="1323_2140_564_37">
+**This is another bold paragraph.**
+</box>
+
+<box class="Section-header" bbox="1261_2251_261_37">
+### Math ligatures
+</box>
+
+<box class="Formula" bbox="1642_2343_539_36">
+\(g_{\mathrm{ef}\mathrm{f}^2}\) (6)
+</box>
+
+<box class="Section-header" bbox="1261_2453_286_37">
+### Math with glues
+</box>
+
+<box class="Formula" bbox="1692_2495_488_46">
+\(g_0^2\) (7)
+</box>
+
+<box class="Formula" bbox="1700_2619_37_36">
+\(b^j\)
+</box>
+
+<box class="Section-header" bbox="1261_2738_663_37">
+### Left/Right/Mid math with commands
+</box>
+
+<box class="Formula" bbox="1670_2826_102_42">
+\(\left\{a\middle\backslash b\right\}\)
+</box>
+
+<box class="Section-header" bbox="1261_2940_526_37">
+### Non-justify/block aligned text
+</box>
+
+<box class="Text" bbox="1261_3023_919_187">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, justo vel tincidunt tincidunt, ipsum ligula ultricies odio, ac tincidunt ante diam nec ipsum. Donec sed diam vitae nisl ullamcorper condimentum.<tbc>
+</box>
+
+<box class="Page-footer" bbox="1230_3304_21_28">
+2
+</box>
